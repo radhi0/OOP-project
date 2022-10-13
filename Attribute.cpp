@@ -3,31 +3,31 @@
 
 
 
-Attribute::Attribute() : rate(0){}
+Attribute::Attribute() : rates(0){}
 
-Attribute::Attribute(int _rate){
-    if (_rate >= 0 && _rate <= 10) {
-        rate = _rate;
+Attribute::Attribute(int _rates){
+    if (_rates >= 0 && _rates <= 10) {
+        rates = _rates;
     }
 
     else {
         std::cout << "Invalid rating. Setting to 0." << std::endl;
-        rate = 0;
+        rates = 0;
     }
 }
 
-int Attribute::get_rate(){
-    return rate;
+int Attribute::get_rates(){
+    return rates;
     }
 
-void Attribute::set_rate(int _rate){
-    if (_rate >= 0 && _rate <= 10) {
-        rate = _rate;
+void Attribute::set_rates(int _rates){
+    if (_rates >= 0 && _rates <= 10) {
+        rates = _rates;
     }
 
     else {
         std::cout << "Invalid rating. Setting to 0." << std::endl;
-        rate = 0;
+        rates = 0;
     }
 }
 
