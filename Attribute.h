@@ -4,12 +4,12 @@
 // This class represents an attribute rating
 class Attribute {
     private:
-        int rate;
+        int rates;
     public:
         Attribute();
-        Attribute(int _rate);
-        int get_rate();
-        void set_rate(int _rate);
+        Attribute(int _rates);
+        int get_rates();
+        void set_rates(int _rates);
         ~Attribute();
 };
 
