@@ -26,7 +26,7 @@ void CommonSkills::set_dribble(Attribute _dribble){dribble = _dribble;}
 
 
 int CommonSkills::total_skill_rating(){
-     return pass.get_rate() + ball_ctrl.get_rate() + dribble.get_rate(); 
+     return pass.get_rates() + ball_ctrl.get_rates() + dribble.get_rates(); 
 }
 
 CommonSkills::~CommonSkills(){}
