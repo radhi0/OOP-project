@@ -23,7 +23,7 @@ class CommonSkills {
         void set_ball_ctrl(Attribute _ball_ctrl);
         void set_dribble(Attribute _dribble);
         void set_shoot(Attribute _shoot);
-        int total_skill_rating();
+        int totalSkills_rates();
         ~CommonSkills();
 };
 
