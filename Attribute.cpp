@@ -31,4 +31,4 @@ void Attribute::set_rates(int _rates){
     }
 }
 
-Attribute::~Attribute(){}
+Attribute::~Attribute(){}       
