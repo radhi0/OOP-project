@@ -16,7 +16,7 @@ class CommonSkills {
         CommonSkills();
         CommonSkills(Attribute _pass, Attribute _ball_ctrl, Attribute _dribble, Attribute _shoot);
         Attribute get_pass();
-        Attribute get_ball_ctrl();
+        Attribute get_ball_ctrl();      
         Attribute get_dribble();
         Attribute get_shoot();
         void set_passing(Attribute _pass);
@@ -28,3 +28,4 @@ class CommonSkills {
 };
 
 #endif
+        
