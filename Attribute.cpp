@@ -7,6 +7,7 @@ Attribute::Attribute() : rates(0){}
 //using if statement
 Attribute::Attribute(int _rates){
     if (_rates >= 0 && _rates <= 10) {
+        //redefining the variables
         rates = _rates;
     }
 
@@ -15,11 +16,11 @@ Attribute::Attribute(int _rates){
         rates = 0;
     }
 }
-
+//getters
 int Attribute::get_rates(){
     return rates;
     }
-
+//setters
 void Attribute::set_rates(int _rates){
     if (_rates >= 0 && _rates <= 10) {
         rates = _rates;
