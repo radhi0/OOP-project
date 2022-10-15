@@ -2,9 +2,9 @@
 #include <iostream>
 
 
-
+//using functions
 Attribute::Attribute() : rates(0){}
-
+//using if statement
 Attribute::Attribute(int _rates){
     if (_rates >= 0 && _rates <= 10) {
         rates = _rates;
