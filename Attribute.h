@@ -11,6 +11,7 @@ class Attribute {
         Attribute(int _rates);
     // getters
         int get_rates();
+    //setters
         void set_rates(int _rates);
         ~Attribute();
 };
