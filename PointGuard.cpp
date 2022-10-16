@@ -7,6 +7,7 @@ PointGuard::PointGuard(){}
 
 PointGuard::PointGuard(string _name, PhysicalAttributes _physicalAttributes_rates, 
     CommonSkills _commonSkills_rates, float _salary, Attribute _Shooting, Attribute _Accuracy, Attribute _freeThrows){
+        //renaming the variables
         name = _name;
         physicalAttributes_rates = _physicalAttributes_rates;
         commonSkills_rates = _commonSkills_rates;
@@ -15,13 +16,14 @@ PointGuard::PointGuard(string _name, PhysicalAttributes _physicalAttributes_rate
         Accuracy = _Accuracy;
         freeThrows = _freeThrows;
 }
-    
+//setters    
 void PointGuard::set_shooting(Attribute _Shooting){Shooting = _Shooting;}
 
 void PointGuard::set_accuracy(Attribute _Accuracy){Accuracy = _Accuracy;}
 
 void PointGuard::set_freeThrows(Attribute _freeThrows){freeThrows = _freeThrows;}
 
+//getters
 Attribute PointGuard::get_shooting(){return Shooting;}
 
 Attribute PointGuard::get_accuracy(){return Accuracy;}
