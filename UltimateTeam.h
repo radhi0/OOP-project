@@ -23,6 +23,7 @@ class UltimateTeam {
 
     public:
         UltimateTeam();
+        //getters
         string get_teamName();
         void set_teamName(string _new_teamName);
         void reset_teamMembers();
