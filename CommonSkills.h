@@ -15,10 +15,12 @@ class CommonSkills {
     public:
         CommonSkills();
         CommonSkills(Attribute _pass, Attribute _ball_ctrl, Attribute _dribble, Attribute _shoot);
+        //getters
         Attribute get_pass();
         Attribute get_ball_ctrl();
         Attribute get_dribble();
         Attribute get_shoot();
+        //getters
         void set_pass(Attribute _pass);
         void set_ball_ctrl(Attribute _ball_ctrl);
         void set_dribble(Attribute _dribble);
