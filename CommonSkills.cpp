@@ -11,7 +11,7 @@ CommonSkills::CommonSkills(Attribute _pass, Attribute _ball_ctrl, Attribute _dri
     ball_ctrl = _ball_ctrl;
     dribble = _dribble;
 }
-
+//getters
 Attribute CommonSkills::get_pass(){return pass;}
         
 Attribute CommonSkills::get_ball_ctrl(){return ball_ctrl;}
@@ -19,6 +19,8 @@ Attribute CommonSkills::get_ball_ctrl(){return ball_ctrl;}
 Attribute CommonSkills::get_dribble(){return dribble;}
 
 Attribute CommonSkills::get_shoot(){return shoot;}
+
+//setters
 
 void CommonSkills::set_pass(Attribute _pass){pass = _pass;}
 
@@ -28,7 +30,7 @@ void CommonSkills::set_dribble(Attribute _dribble){dribble = _dribble;}
 
 void CommonSkills::set_shoot(Attribute _shoot){shoot = _shoot;}
 
-
+//returning the values
 int CommonSkills::totalSkills_rates(){
      return pass.get_rates() + ball_ctrl.get_rates() + dribble.get_rates() + shoot.get_rates(); 
 }
