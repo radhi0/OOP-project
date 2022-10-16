@@ -16,10 +16,12 @@ class PhysicalAttributes {
     public:
         PhysicalAttributes();
         PhysicalAttributes(Attribute _stamina, Attribute _pace, Attribute _physical, Attribute _height);
+        //setters
         void set_stamina(Attribute _stamina);
         void set_pace(Attribute _pace);
         void set_physical(Attribute _physical);
         void set_height(Attribute _height);
+        //getters
         Attribute get_stamina();
         Attribute get_pace();
         Attribute get_physical();
