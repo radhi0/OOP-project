@@ -15,7 +15,7 @@ Player::Player(string _name, PhysicalAttributes _physicalAttributes_rates, Commo
     requiredSalary_for_player = _salary;
     printSalary_of_selected_player = requiredSalary_for_player;
 }
-
+//setters
 void Player::set_name(string _name){name = _name;}
     
 void Player::set_physicalAttribute_rates(PhysicalAttributes _physicalAttributes_rates){physicalAttributes_rates = _physicalAttributes_rates;}
@@ -25,7 +25,9 @@ void Player::set_commonSkills_rates(CommonSkills _commonSkill_rates){commonSkill
 void Player::set_requiredSalary_for_player(float _requiredSalary_for_player){requiredSalary_for_player = _requiredSalary_for_player;}
 
 void Player::set_printSalary_of_selected_player(float _printSalary_of_selected_player){printSalary_of_selected_player = _printSalary_of_selected_player;}
-    
+
+//getters
+
 string Player::get_name(){return name;}
     
 PhysicalAttributes Player::get_physicalAttributes_rates(){return physicalAttributes_rates;}
