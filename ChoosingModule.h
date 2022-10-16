@@ -12,7 +12,7 @@
 #include "UltimateTeam.h"
 
 using namespace std;
-
+//class
 class ChoosingModule {
  private:
   PointGuard* pg_selection;
@@ -27,6 +27,7 @@ class ChoosingModule {
   void take_in_smallforward(string filename);
   void take_in_powerforward(string filename);
   void take_in_shootingguard(string filename);
+  //getters
   PointGuard* get_pg_selections();
   SmallForward* get_sf_selections();
   PowerForward* get_pf_selections();
