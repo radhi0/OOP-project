@@ -9,7 +9,7 @@ PhysicalAttributes::PhysicalAttributes(){
     physical.set_rates(0);
     height.set_rates(0);
 }
-
+//setters
 void PhysicalAttributes::set_stamina(Attribute _stamina){stamina = _stamina;}
         
 void PhysicalAttributes::set_pace(Attribute _pace){pace = _pace;}
@@ -17,7 +17,8 @@ void PhysicalAttributes::set_pace(Attribute _pace){pace = _pace;}
 void PhysicalAttributes::set_physical(Attribute _physical){physical = _physical;}
 
 void PhysicalAttributes::set_height(Attribute _height){height = _height;}
-        
+
+//getters      
 Attribute PhysicalAttributes::get_stamina(){return stamina;}
         
 Attribute PhysicalAttributes::get_pace(){return pace;}
