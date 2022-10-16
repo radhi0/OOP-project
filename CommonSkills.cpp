@@ -10,6 +10,7 @@ CommonSkills::CommonSkills(Attribute _pass, Attribute _ball_ctrl, Attribute _dri
     pass = _pass;
     ball_ctrl = _ball_ctrl;
     dribble = _dribble;
+    shoot = _shoot;
 }
 //getters
 Attribute CommonSkills::get_pass(){return pass;}
